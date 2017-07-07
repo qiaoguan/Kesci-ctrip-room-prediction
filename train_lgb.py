@@ -73,13 +73,13 @@ params={'boosting_type':'gbdt',
 	    'num_leaves':80,
 	    'lambda_l2':1,
 	    'subsample':0.7,
-	    'learning_rate': 0.01,
+	    'learning_rate': 0.03,
 	    'feature_fraction':0.7,
 	    'bagging_fraction':0.8,
 	    'bagging_freq':10,
 	    'num_threads':25
 	    }
-bst = lgb.train(params,lgb_train,num_boost_round=20000,valid_sets=lgb_val,early_stopping_rounds=200,
+bst = lgb.train(params,lgb_train,num_boost_round=8000,valid_sets=lgb_val,early_stopping_rounds=200,
 	            categorical_feature=['roomservice_8','roomservice_4','roomservice_3','roomtag_1','this_last_roomservice_8_gap'])
 bst.save_model('lgb.txt')  #save model
 
