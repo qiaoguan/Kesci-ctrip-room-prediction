@@ -1,50 +1,50 @@
-       Kesci--Ğ¯³ÌÓÃ»§Ô¤¶©ÊÛÂô·¿ĞÍ¸ÅÂÊÔ¤²â   ´úÂëÄ¿Â¼
+       Kesci--æºç¨‹ç”¨æˆ·é¢„è®¢å”®å–æˆ¿å‹æ¦‚ç‡é¢„æµ‹   ä»£ç ç›®å½•
 
-ÔËĞĞ»·¾³£ºpython2.7
+è¿è¡Œç¯å¢ƒï¼špython2.7
 
-Éú³ÉÑµÁ·¼¯ÌØÕ÷µÄ´úÂë£º
-gen_trainfeature1.py   --Éú³Étrain_related_feature1.csv·ÅÔÚÄ¿Â¼dataÏÂ
-gen_trainfeature2.py   --Éú³Étrain_feature1.csv·ÅÔÚdataÄ¿Â¼ÏÂ
-gen_trainfeature3.py   --Éú³Étrain_feature_add3.csv,  
-gen_trainfeature4.py   --Éú³Étrain_feature_add4_1.csv·ÅÔÚdata/new-feature-6-22/Ä¿Â¼ÏÂ
+ç”Ÿæˆè®­ç»ƒé›†ç‰¹å¾çš„ä»£ç ï¼š
+gen_trainfeature1.py   --ç”Ÿæˆtrain_related_feature1.csvæ”¾åœ¨ç›®å½•dataä¸‹
+gen_trainfeature2.py   --ç”Ÿæˆtrain_feature1.csvæ”¾åœ¨dataç›®å½•ä¸‹
+gen_trainfeature3.py   --ç”Ÿæˆtrain_feature_add3.csv,  
+gen_trainfeature4.py   --ç”Ÿæˆtrain_feature_add4_1.csvæ”¾åœ¨data/new-feature-6-22/ç›®å½•ä¸‹
 
-Éú³É²âÊÔ¼¯ÌØÕ÷µÄ´úÂë£¨ÏàÓ¦µÄ²âÊÔ¼¯ÌØÕ÷£©£º
-gen_testfeature1.py    --Éú³É
-gen_testfeature2.py    --Éú³É
-gen_testfeature3.py    --Éú³É
-gen_testfeature4.py    --Éú³É
+ç”Ÿæˆæµ‹è¯•é›†ç‰¹å¾çš„ä»£ç ï¼ˆç›¸åº”çš„æµ‹è¯•é›†ç‰¹å¾ï¼‰ï¼š
+gen_testfeature1.py    --ç”Ÿæˆ
+gen_testfeature2.py    --ç”Ÿæˆ
+gen_testfeature3.py    --ç”Ÿæˆ
+gen_testfeature4.py    --ç”Ÿæˆ
 
-Éú³ÉÑµÁ·¼¯ºÍ²âÊÔ¼¯ÌØÕ÷
-feature_combine13.py   --Éú³Éadd_train13ºÍadd_test13´æ·ÅÔÚdataÄ¿Â¼ÏÂ
-feature_combine15.py   --Éú³Étrain_newfeatures43.csv  ºÍ test_newfeatures43.csv´æ·ÅÔÚdata/features6-18ÀïÃæ   
-gen_feature5.py        --Éú³Éadd_train5.csvºÍadd_test5.csv·ÅÔÚÄ¿Â¼  data/newfeature-5ÏÂ
-feature_make_1.py£¨feature_make_1_optimized.py£©  --Éú³Étrain_ismaintype.csv¡¢test_ismaintype.csv´æ·ÅÔÚdata/features6-18ÀïÃæ
-×¢£ºfeature_make_1.py Õâ²¿·Ö´úÂëĞ´µÄÊ±ºòÃ»¿¼ÂÇµ½ÓÅ»¯µÄÎÊÌâ£¬ÆäÖĞ°üº¬ÁË´óÁ¿µÄÌõ¼şÅĞ¶Ï£¬µ¼ÖÂĞèÒªÔËĞĞºÜ³¤Ê±¼ä¡£±ÈÈü½áÊøºóÎÒÃÇ¶ÔÕâ²¿·Ö´úÂë½øĞĞÁËÓÅ»¯£¬
-ÃüÃû³ÉÎªfeature_make_1_optimized.py£¬Êµ¼ÊÊ¹ÓÃÊ±ÍÆ¼öÔËĞĞ´ËÎÄ¼ş´úÌæ¡£
+ç”Ÿæˆè®­ç»ƒé›†å’Œæµ‹è¯•é›†ç‰¹å¾
+features_combine13.py   --ç”Ÿæˆadd_train13å’Œadd_test13å­˜æ”¾åœ¨dataç›®å½•ä¸‹
+features_combine15.py   --ç”Ÿæˆtrain_newfeatures43.csv  å’Œ test_newfeatures43.csvå­˜æ”¾åœ¨data/features6-18é‡Œé¢   
+gen_feature5.py        --ç”Ÿæˆadd_train5.csvå’Œadd_test5.csvæ”¾åœ¨ç›®å½•  data/newfeature-5ä¸‹
+feature_make_1.pyï¼ˆfeature_make_1_optimized.pyï¼‰  --ç”Ÿæˆtrain_ismaintype.csvã€test_ismaintype.csvå­˜æ”¾åœ¨data/features6-18é‡Œé¢
+æ³¨ï¼šfeature_make_1.py è¿™éƒ¨åˆ†ä»£ç å†™çš„æ—¶å€™æ²¡è€ƒè™‘åˆ°ä¼˜åŒ–çš„é—®é¢˜ï¼Œå…¶ä¸­åŒ…å«äº†å¤§é‡çš„æ¡ä»¶åˆ¤æ–­ï¼Œå¯¼è‡´éœ€è¦è¿è¡Œå¾ˆé•¿æ—¶é—´ã€‚æ¯”èµ›ç»“æŸåæˆ‘ä»¬å¯¹è¿™éƒ¨åˆ†ä»£ç è¿›è¡Œäº†ä¼˜åŒ–ï¼Œ
+å‘½åæˆä¸ºfeature_make_1_optimized.pyï¼Œå®é™…ä½¿ç”¨æ—¶æ¨èè¿è¡Œæ­¤æ–‡ä»¶ä»£æ›¿ã€‚
                               
 ###########################################################
-ÌØÕ÷Êı¾İÉú³É£¬´úÂëÔËĞĞË³Ğò£º
+ç‰¹å¾æ•°æ®ç”Ÿæˆï¼Œä»£ç è¿è¡Œé¡ºåºï¼š
 gen_trainfeature1.py   gen_testfeature1.py    
 gen_trainfeature2.py   gen_testfeature2.py  
-feature_combine13.py    
-feature_combine15.py   
+features_combine13.py    
+features_combine15.py   
 gen_trainfeature3.py   gen_testfeature3.py    
 gen_trainfeature4.py   gen_testfeature4.py    
 gen_feature5.py
 feature_make_1.py
 ###########################################################
 
-Ä£ĞÍÑµÁ·´úÂëºÍÉú³ÉÔ¤²â½á¹û£º
+æ¨¡å‹è®­ç»ƒä»£ç å’Œç”Ÿæˆé¢„æµ‹ç»“æœï¼š
 train_lgb.py
 train_xgb.py
 
-Ä£ĞÍÈÚºÏ´úÂë£º
-linear_fusion.py   ÏßĞÔÈÚºÏ£¨×îºÃ³É¼¨£©
-multiply_fusion.py  Ïà³ËÈÚºÏ
+æ¨¡å‹èåˆä»£ç ï¼š
+linear_fusion.py   çº¿æ€§èåˆï¼ˆæœ€å¥½æˆç»©ï¼‰
+multiply_fusion.py  ç›¸ä¹˜èåˆ
 
-datasetÄ¿Â¼ÏÂ´æ·ÅÑµÁ·¼¯ºÍ²âÊÔ¼¯Êı¾İ
-dataÄ¿Â¼ÏÂ´æ·ÅËùÓĞÉú³ÉµÄ ÑµÁ·¼¯ºÍ²âÊÔ¼¯ÌØÕ÷
-fusion_dataÄ¿Â¼ÏÂ´æ·Å½øĞĞÄ£ĞÍÈÚºÏÇ°  xgboostºÍlightGBMÉú³ÉµÄËùÓĞ·¿ĞÍÔ¤²âµÄ¸ÅÂÊ
-×î¸ßµÃ·Ö½á¹ûÎÄ¼şÎª£ºlinear_submission_0.2_0.8.csv ´æ·ÅÔÚfusion_dataÄ¿Â¼ÏÂ
+datasetç›®å½•ä¸‹å­˜æ”¾è®­ç»ƒé›†å’Œæµ‹è¯•é›†æ•°æ®
+dataç›®å½•ä¸‹å­˜æ”¾æ‰€æœ‰ç”Ÿæˆçš„ è®­ç»ƒé›†å’Œæµ‹è¯•é›†ç‰¹å¾
+fusion_dataç›®å½•ä¸‹å­˜æ”¾è¿›è¡Œæ¨¡å‹èåˆå‰  xgboostå’ŒlightGBMç”Ÿæˆçš„æ‰€æœ‰æˆ¿å‹é¢„æµ‹çš„æ¦‚ç‡
+æœ€é«˜å¾—åˆ†ç»“æœæ–‡ä»¶ä¸ºï¼šlinear_submission_0.2_0.8.csv å­˜æ”¾åœ¨fusion_dataç›®å½•ä¸‹
 
 
